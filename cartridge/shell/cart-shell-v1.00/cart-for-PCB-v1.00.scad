@@ -12,8 +12,9 @@
 
 // This version changes the holes and bits positions
 // in order to fit perfectly PCB v1.00.
+// (Hole spacing is 17.5mm instead of 20.00mm)
 
-TODO !
+//TODO !
 
 // --------------------------------------------------------
 // Parameters
@@ -116,8 +117,8 @@ grip_size   =  0.90;
 
 y_pinsAB = 22.16;
 x_pinA = (lar_t/2);
-x_pinB1 = x_pinA - 20.00;
-x_pinB2 = x_pinA + 20.00;
+x_pinB1 = x_pinA - 17.50; // Original is 20.00
+x_pinB2 = x_pinA + 17.50; // Original is 20.00
 x_pinC = 25.60;
 y_pinC = lon_t - 19.50;
 
@@ -227,7 +228,7 @@ module bottomMod() {
     }
 
     translate([x_pinB1, y_pinsAB, 0]) pinB();
-    translate([x_pinB2, y_pinsAB, 0]) pinB();
+    translate([x_pinB2, y_pinsAB, 0]) pinB();    
 
     translate([x_pinC, y_pinC, 0]) pinC();
     translate([lar_t-x_pinC, y_pinC, 0]) pinC();
