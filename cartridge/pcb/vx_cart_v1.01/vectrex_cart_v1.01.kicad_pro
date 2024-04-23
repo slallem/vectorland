@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.6,
-          "width": 2.4
+          "drill": 5.3,
+          "height": 5.3,
+          "width": 5.3
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -120,7 +120,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.25,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.075,
         "min_hole_clearance": 0.25,
@@ -132,7 +132,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
+        "min_track_width": 0.25,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -182,7 +182,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.4,
+        0.508,
+        0.762,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -450,7 +454,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vectrex_cart_v1.kicad_pro",
+    "filename": "vectrex_cart_v1.01.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -484,7 +488,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "27C256cart.net",
+      "netlist": "vectrex_cart_v1.01.net",
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",

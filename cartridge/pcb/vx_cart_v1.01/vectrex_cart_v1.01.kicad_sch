@@ -5,7 +5,9 @@
 	(uuid "10a0b369-9141-4c8d-bebf-e0e7bbaefd7e")
 	(paper "A4")
 	(title_block
-		(title "Vectrex Eprom v1.0")
+		(title "Vectrex cartridge PCB")
+		(date "2024-04-18")
+		(rev "v1.01")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x36_Male"
@@ -2667,16 +2669,16 @@
 		(uuid "1f0511bf-34c7-4783-84ac-b5b41e5e01b9")
 	)
 	(junction
-		(at 80.01 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f636576-4422-4fb6-81a0-f1c0b4a9f19b")
-	)
-	(junction
 		(at 45.72 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47eda29f-ba76-4d15-a44f-eeef8a11ec18")
+	)
+	(junction
+		(at 83.82 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd7da128-f2d3-4455-92ed-0837662fcfb6")
 	)
 	(no_connect
 		(at 38.1 26.67)
@@ -2814,16 +2816,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 73.66) (xy 80.01 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c1ef5b2-5aa0-4b4b-8bbd-518eb1b4d307")
-	)
-	(wire
-		(pts
 			(xy 45.72 87.63) (xy 38.1 87.63)
 		)
 		(stroke
@@ -2894,16 +2886,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 78.74) (xy 67.31 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "508f4450-6cc8-420e-aa61-14a3e52ce098")
-	)
-	(wire
-		(pts
 			(xy 128.27 48.26) (xy 139.7 48.26)
 		)
 		(stroke
@@ -2954,16 +2936,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 73.66) (xy 80.01 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef39880-9e02-4044-aae4-6de1b111643a")
-	)
-	(wire
-		(pts
 			(xy 38.1 82.55) (xy 40.64 82.55)
 		)
 		(stroke
@@ -3001,6 +2973,16 @@
 			(type default)
 		)
 		(uuid "6abeb980-741a-4004-9bbb-98615a92190f")
+	)
+	(wire
+		(pts
+			(xy 83.82 68.58) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d450ad7-838c-46d8-8876-b5150aefa9f6")
 	)
 	(wire
 		(pts
@@ -3044,6 +3026,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 73.66) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85104636-1a44-460e-b4d9-c2ea7a7c6ea9")
+	)
+	(wire
+		(pts
 			(xy 93.98 66.04) (xy 107.95 66.04)
 		)
 		(stroke
@@ -3064,16 +3056,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 73.66) (xy 67.31 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "897919d7-9900-4064-9223-614554871735")
-	)
-	(wire
-		(pts
 			(xy 118.11 88.9) (xy 118.11 99.06)
 		)
 		(stroke
@@ -3091,6 +3073,16 @@
 			(type default)
 		)
 		(uuid "8e6408fc-b44d-409e-9572-4329819c89be")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 83.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6e4136-a309-4563-97d1-69f34b7afd7e")
 	)
 	(wire
 		(pts
@@ -3254,6 +3246,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 78.74) (xy 68.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baef7fa0-3f94-454b-b573-a8c42adacedb")
+	)
+	(wire
+		(pts
+			(xy 64.77 68.58) (xy 68.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd012377-3e53-4b4b-bec3-61a5c33d5640")
+	)
+	(wire
+		(pts
 			(xy 38.1 29.21) (xy 45.72 29.21)
 		)
 		(stroke
@@ -3271,16 +3283,6 @@
 			(type default)
 		)
 		(uuid "c30446c4-7f9e-42e6-b4ad-61b4d8c249d3")
-	)
-	(wire
-		(pts
-			(xy 80.01 73.66) (xy 107.95 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c551cded-14d3-43de-8b48-7d75c2b9371a")
 	)
 	(wire
 		(pts
@@ -3364,6 +3366,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 78.74) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43bb273-399d-471d-b223-779ec0af6d3f")
+	)
+	(wire
+		(pts
 			(xy 45.72 29.21) (xy 46.99 29.21)
 		)
 		(stroke
@@ -3384,6 +3396,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 68.58) (xy 83.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb979448-2ec4-43c0-8b4a-3013540306b8")
+	)
+	(wire
+		(pts
 			(xy 128.27 45.72) (xy 139.7 45.72)
 		)
 		(stroke
@@ -3391,16 +3413,6 @@
 			(type default)
 		)
 		(uuid "f44fb8b0-0bf8-4c21-8a3a-bb7154ee2607")
-	)
-	(wire
-		(pts
-			(xy 80.01 78.74) (xy 74.93 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f509c6fb-bc66-4fa4-b659-3fa595e50f10")
 	)
 	(wire
 		(pts
@@ -3588,7 +3600,7 @@
 	)
 	(global_label "A14"
 		(shape input)
-		(at 64.77 73.66 180)
+		(at 64.77 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3598,7 +3610,7 @@
 		)
 		(uuid "1b022310-0f9f-4978-9ffb-4cf3b1898d65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.9314 73.66 0)
+			(at 58.9314 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4837,7 @@
 			(uuid "16aacd3b-b93a-4686-be89-34d22bd6f348")
 		)
 		(instances
-			(project "27C256cart"
+			(project "vectrex_cart_v1.01"
 				(path "/10a0b369-9141-4c8d-bebf-e0e7bbaefd7e"
 					(reference "J1")
 					(unit 1)
@@ -4888,7 +4900,7 @@
 			)
 		)
 		(instances
-			(project "27C256cart"
+			(project "vectrex_cart_v1.01"
 				(path "/10a0b369-9141-4c8d-bebf-e0e7bbaefd7e"
 					(reference "H2")
 					(unit 1)
@@ -4951,7 +4963,7 @@
 			)
 		)
 		(instances
-			(project "27C256cart"
+			(project "vectrex_cart_v1.01"
 				(path "/10a0b369-9141-4c8d-bebf-e0e7bbaefd7e"
 					(reference "H1")
 					(unit 1)
@@ -5014,7 +5026,7 @@
 			)
 		)
 		(instances
-			(project "27C256cart"
+			(project "vectrex_cart_v1.01"
 				(path "/10a0b369-9141-4c8d-bebf-e0e7bbaefd7e"
 					(reference "H3")
 					(unit 1)
@@ -5024,31 +5036,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 73.66 270)
+		(at 72.39 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "071f1be2-08ce-46a3-b581-5c3fef629e7a")
+		(uuid "4bd0aab6-dd20-4584-ab00-fe293f6ebc7f")
 		(property "Reference" "R1"
-			(at 71.12 71.628 90)
+			(at 72.39 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "OR"
-			(at 71.12 73.914 90)
+		(property "Value" "0R"
+			(at 72.39 68.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 71.12 71.882 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 72.39 66.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 73.66 0)
+			(at 72.39 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5078,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 71.12 73.66 0)
+			(at 72.39 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,13 +5087,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "aae1ef62-4a1c-4d0a-8bb5-74afa32819e6")
+			(uuid "9c245852-1c28-4b79-8c9b-ad6db0220424")
 		)
 		(pin "2"
-			(uuid "4665ac38-201a-4220-b66c-afbb5605b1c7")
+			(uuid "fa82acc3-b158-4244-aa1e-b06bd9e2372a")
 		)
 		(instances
-			(project "27C256cart"
+			(project "vectrex_cart_v1.01"
 				(path "/10a0b369-9141-4c8d-bebf-e0e7bbaefd7e"
 					(reference "R1")
 					(unit 1)
@@ -5147,7 +5159,7 @@
 			(uuid "cff7bf16-e403-4a64-ac31-15fd440a6501")
 		)
 		(instances
-			(project "27C256cart"
+			(project "vectrex_cart_v1.01"
 				(path "/10a0b369-9141-4c8d-bebf-e0e7bbaefd7e"
 					(reference "#PWR0102")
 					(unit 1)
@@ -5213,7 +5225,7 @@
 			(uuid "305cf901-4992-4aab-9fd2-a6a1ca1453d8")
 		)
 		(instances
-			(project "27C256cart"
+			(project "vectrex_cart_v1.01"
 				(path "/10a0b369-9141-4c8d-bebf-e0e7bbaefd7e"
 					(reference "#PWR0101")
 					(unit 1)
@@ -5279,7 +5291,7 @@
 			(uuid "df91d490-7f75-48bf-88ef-b28403217968")
 		)
 		(instances
-			(project "27C256cart"
+			(project "vectrex_cart_v1.01"
 				(path "/10a0b369-9141-4c8d-bebf-e0e7bbaefd7e"
 					(reference "#FLG0102")
 					(unit 1)
@@ -5345,7 +5357,7 @@
 			(uuid "00f912fa-70a3-4a63-be5d-58f894c47766")
 		)
 		(instances
-			(project "27C256cart"
+			(project "vectrex_cart_v1.01"
 				(path "/10a0b369-9141-4c8d-bebf-e0e7bbaefd7e"
 					(reference "#FLG0101")
 					(unit 1)
@@ -5355,7 +5367,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 78.74 270)
+		(at 72.39 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5363,7 +5375,7 @@
 		(dnp no)
 		(uuid "a86041c4-a869-46c0-be9a-4278075667fb")
 		(property "Reference" "R2"
-			(at 71.12 76.708 90)
+			(at 72.39 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,15 +5383,15 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 71.12 78.994 90)
+			(at 72.39 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 71.12 76.962 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 72.39 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 78.74 0)
+			(at 72.39 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +5409,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 71.12 78.74 0)
+			(at 72.39 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5424,7 @@
 			(uuid "397ab512-1cd3-423e-8efa-df82ab8d5bb7")
 		)
 		(instances
-			(project "27C256cart"
+			(project "vectrex_cart_v1.01"
 				(path "/10a0b369-9141-4c8d-bebf-e0e7bbaefd7e"
 					(reference "R2")
 					(unit 1)
@@ -5448,7 +5460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_LongPads"
 			(at 118.11 60.96 0)
 			(effects
 				(font
@@ -5560,7 +5572,7 @@
 			(uuid "fffb1ef0-7dc4-4f05-954b-1f0491bedd0d")
 		)
 		(instances
-			(project "27C256cart"
+			(project "vectrex_cart_v1.01"
 				(path "/10a0b369-9141-4c8d-bebf-e0e7bbaefd7e"
 					(reference "U1")
 					(unit 1)
